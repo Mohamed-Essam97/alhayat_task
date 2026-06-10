@@ -1,0 +1,33 @@
+name: alhayat_task
+description: "Task Management Flutter assessment app."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  dio: ^5.7.0
+  retrofit: 4.4.2
+  injectable: ^2.5.0
+  get_it: ^7.7.0
+  flutter_bloc: ^8.1.6
+  shared_preferences: ^2.3.3
+  json_annotation: ^4.9.0
+  flutter_hooks: ^0.20.5
+  reactive_forms: ^17.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.13
+  retrofit_generator: 8.2.1
+  injectable_generator: ^2.6.2
+  json_serializable: 6.8.0
+
+flutter:
+  uses-material-design: true
